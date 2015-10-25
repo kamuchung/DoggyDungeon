@@ -1,0 +1,37 @@
+.background    { background: url(http://orig11.deviantart.net/13f5/f/2014/237/5/2/52f379fdadc41bf6b3f3aa9184c6b115-d7wlwkc.png);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.poison          { background: rgb(60, 166, 7); }
+.skull		{ background: url(Sprites/skull.png); }
+.poisonr        { background: rgb(60, 166, 7); }
+.poisont	{ background: rgb(60, 166, 7); }
+.wall          { background: url(http://i.imgur.com/7p4ueca.png);   }
+
+.actor  { position: absolute;  }
+.coin   { background: url(Sprites/Potion.png); }
+.player { background: url(Sprites/Dog.gif); }
+.enemy { background: url(Sprites/Demon.gif); }
+.boss{ background: url(Sprites/Finalboss3.gif); }
+
+.text1{ background: url(Sprites/Text1.png); }
+.text2{ background: url(Sprites/Text2.png); }
+.text3{ background: url(Sprites/Text3.png); }
+.text4{ background: url(Sprites/Text4.png); }
+.text5{ background: url(Sprites/Text5.png); }
+
+.fireworks{ background: url(Sprites/Fireworks.gif); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: url(Sprites/Tomb.png);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
